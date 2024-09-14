@@ -1,6 +1,6 @@
 #
-# Name
-# Date
+# Name Luke Guild
+# Date 9/14/2024
 # Areas of Rectangles Programming Project
 # COSC 2409 DNT
 #
