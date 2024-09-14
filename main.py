@@ -1,28 +1,27 @@
 #
-# Name Luke Guild
-# Date 9/8/2024
-# Sales Tax Programming Project
+# Name
+# Date
+# Areas of Rectangles Programming Project
 # COSC 2409 DNT
 #
+# Local variables
 
-# Variable declarations
-state_tax = 0.05
-county_tax = 0.025
-# Constants for the state and county tax rates
-
-# Get the amount of the purchase.
-purchase_amount = int(input('Enter purchase amount: '))
-# Calculate the state sales tax.
-total_state_tax = state_tax * purchase_amount
-# Calculate the county sales tax.
-total_county_tax = county_tax * purchase_amount
-# Calculate the total tax.
-total_tax = total_state_tax + total_county_tax
-# Calculate the total of the sale.
-total_sale_cost = total_tax + purchase_amount
-# Print information about the sale.
-print(f'The amount of purchase is ${purchase_amount:.2f}.')
-print(f'The state tax is ${total_state_tax:.2f}.')
-print(f'The county tax is ${total_county_tax:.2f}.')
-print(f'The total tax is ${total_tax:.2f}.')
-print(f'The total cost of purchase is ${total_sale_cost:.2f}.')
+# Get length A
+length_A= int(input('Enter the length of rectangle A: '))
+# Get width A
+width_A= int(input('Enter the width of rectangle A: '))
+# Get length B
+length_B= int(input('Enter the length of rectangle B: '))
+# Get width B
+width_B= int(input('Enter the width of rectangle B: '))
+# Calculate area A
+area_A= length_A*width_A
+# Calculate area B
+area_B= length_B*width_B
+# Print area comparison using if-elif-else statements
+if area_A < area_B:
+    print('Rectangle B has a larger area')
+elif area_B < area_A:
+    print('Rectangle A has a larger area')
+else:
+    print('Both rectangles have an equal area')
